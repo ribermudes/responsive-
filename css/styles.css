@@ -1,0 +1,102 @@
+.wrapper {
+  width: 95%;
+  margin: auto;
+}
+body {
+  font-family: cambria, Georgia, cursive;
+  background-color: #e7e7e7;
+}
+
+.logo {
+  float: left;
+  max-width: 20%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+.main-content {
+  float: right;
+  max-width: 70%;
+}
+.main-content h1 {
+  font-weight: lighter;
+  font-size: 2em;
+  text-align: center;
+}
+.main-content h2 {
+  width: 300px;
+  font-size: 1.8em;
+  text-align: center;
+  background-color: #e7e7e7;
+  margin-left: 38%;
+}
+.h2_background {
+  background-image:url("../img/h2-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .8;
+}
+.images {
+  height: 90%;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 1px 6px rgba(0, 0, 0, 0.1);
+
+}
+.nav li {
+  color: #890101;
+  list-style-type: none;
+  display: inline;
+  width: 325px;
+  float: left;
+  margin: 4% 0% 4% 5%;
+  padding-bottom: 2%;
+  border-bottom: solid 1px black;
+}
+.top-text {
+  display: block;
+  font-size: .7em;
+}
+.nav ul {
+  float: right;
+  text-align: center;
+  width: 70%;
+}
+/*.nav u {
+  display: block;
+}*/
+ #holmes, #watson, #mycroft, #moriarty, #adler, #winter {
+   max-width: 15%;
+   float:left;
+   text-align: center;
+   line-height: .4em;
+   font-size: .7em;
+   color: #890101;
+}
+#holmes p:first-of-type, #watson p:first-of-type, #mycroft p:first-of-type, #moriarty p:first-of-type, #adler p:first-of-type, #winter p:first-of-type {
+  font-size: .65em;
+}
+
+
+  .footer {
+    text-align: center;
+    font-size: .7em;
+    float: left;
+    margin-left: 29%;
+  }
+  .names {
+    color: #890101;
+  }
+
+  @media (max-width: 450px) {
+      .main-content {
+        float: none;
+        max-width: 100%;
+        margin: 65% 0 0 0;
+      }
+      #holmes, #watson, #mycroft, #moriarty, #adler, #winter {
+        max-width: 50%;
+
+      }
+
+
+  }
